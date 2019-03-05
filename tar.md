@@ -1,8 +1,8 @@
-#What is a tar file?
+# What is a tar file?
 Tar files are compressed files
 just as zip files
 
-#Why tar files?
+# Why tar files?
 
 Tar compression is very efficient compared to zip files.
 
@@ -17,7 +17,7 @@ tar + gzip 		86M 	98M 	93M 	82M 	77M 	27M
 tar + bz2 		87M 	98M 	93M 	42M 	71M 	22M
 tar + xz 		70M 	98M 	22M 	348K 	51M 	19M
 
-#Working wit tar files
+# Working wit tar files
 
 Tar files come with tree diffirent types:
 
@@ -27,7 +27,7 @@ Tar files come with tree diffirent types:
 
 3.compressed with bzip2 .tar.bz2
 
-#Unpacking
+# Unpacking
 ```bash
 tar -xvf file.tar
 
